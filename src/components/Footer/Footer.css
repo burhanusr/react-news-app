@@ -1,0 +1,27 @@
+.footer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 3em;
+  border-top: 2px solid #f4f5fb;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__left,
+.footer__right {
+  flex-grow: 1;
+}
+
+.footer__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+.footer__caption {
+  font-size: 1rem;
+  margin: 0.5em 0;
+}

@@ -1,0 +1,15 @@
+.news-grid {
+  padding-top: 0.75em;
+  padding-bottom: 1em;
+}
+
+.news-grid__title {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.news-grid__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2em;
+}
